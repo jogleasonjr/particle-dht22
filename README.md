@@ -4,7 +4,7 @@ Project for reading a [DHT22](https://www.adafruit.com/product/385) temperature 
 
 ### Get
 
-`git clone blah --recursive`
+`git clone https://github.com/jogleasonjr/particle-dht22.git --recursive`
 
 ### Build/Deploy
 
