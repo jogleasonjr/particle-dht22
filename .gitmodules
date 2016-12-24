@@ -1,0 +1,3 @@
+[submodule "lib/adafruit_dht_library"]
+	path = lib/adafruit_dht_library
+	url = https://github.com/russgrue/adafruit_dht_library
