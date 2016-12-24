@@ -15,7 +15,6 @@ Project for reading a [DHT22](https://www.adafruit.com/product/385) temperature 
 `particle serial monitor`
 
 You should get results like this:
-
     Sat Dec 24 15:45:41 2016 - Humid: 32.60% - Temp: 74.66°F / 23.70°C  - HeatI: 77.03°F
     Sat Dec 24 15:45:43 2016 - Humid: 32.60% - Temp: 74.66°F / 23.70°C  - HeatI: 77.03°F
     Sat Dec 24 15:45:45 2016 - Humid: 32.60% - Temp: 74.66°F / 23.70°C  - HeatI: 77.03°F
@@ -24,6 +23,6 @@ You should get results like this:
 
 ### HTTP
 
-The three exposed variables are `humidity`, `tempC`, and `tempF`. This can be read from your device using:
+The three exposed variables are `humidity`, `tempC`, and `tempF`. These can be read from your device using:
 
 `curl https://api.particle.io/v1/devices/{device_name_or_id}/tempF?access_token={your_access_token}`
