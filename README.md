@@ -27,3 +27,19 @@ You should get results like these:
 The three exposed variables are `humidity`, `tempC`, and `tempF`. These can be read from your device using:
 
 `curl https://api.particle.io/v1/devices/{device_name_or_id}/tempF?access_token={your_access_token}`
+
+This should get you results like this:
+
+    {
+      "cmd": "VarReturn",
+      "name": "tempF",
+      "error": null,
+      "result": 74.1199951171875,
+      "coreInfo": {
+        "last_app": "",
+        "last_heard": "2016-12-24T16:05:48.794Z",
+        "connected": true,
+        "last_handshake_at": "2016-12-24T15:54:10.284Z",
+        "deviceID": "{device_id}"
+      }
+    }
